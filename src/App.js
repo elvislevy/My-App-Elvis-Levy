@@ -1,11 +1,13 @@
 import './App.css';
-import Navegador from './components/Navegador';
+import Navigator from './components/Navigator';
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
   return (
     <>
-      <Navegador/>
+      <Navigator/>
+      <ItemListContainer greeting="hola"/>
     </>
   );
 }
