@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navigator/>
-      <ItemListContainer greeting="hola"/>
+      <ItemListContainer />
     </>
   );
 }
