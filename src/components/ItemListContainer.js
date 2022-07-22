@@ -1,12 +1,22 @@
-import React from "react";
-import ItemCount from "./ItemCount";
+import {useState, useEffect} from "react";
+import ItemList from "./ItemList";
 
 
-function ItemListContainer() {
+const ItemListContainer = () => {
+    const [items, setItems] = useState([])
     
+    useEffect(() => {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(res => res.json())
+            .then(users => {
+                setItems(users)
+            }) 
+
+    },[])
+
     return (
             <div>
-                <ItemCount stock = "10" initial="1"/>
+                <ItemList items={items} />
             </div>
     );
 
