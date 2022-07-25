@@ -1,11 +1,11 @@
 import { AiOutlineShopping } from 'react-icons/ai';
-import './css/CartWidget.css';
+
 
 
 const CartWidget = () => {
 
     return(
-        <div className='icono'>
+        <div className='icono' style={{color: "white", fontSize: "35px"}}>
             <AiOutlineShopping />
         </div>
 

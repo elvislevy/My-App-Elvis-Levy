@@ -4,9 +4,8 @@ import React,{useState} from "react";
 
 function ItemCount ({stock,initial, onAdd}) {
     
-    const [cantidad, setCantidad] = useState(parseInt(initial));
-    const disponible = parseInt(stock)
-    const minimo = parseInt(initial)
+    const [cantidad, setCantidad] = useState(minimo);
+    
 
     const suma = () => {
         (cantidad < disponible) && setCantidad(cantidad + 1)

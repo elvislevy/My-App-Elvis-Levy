@@ -1,103 +1,102 @@
 [
     {    
-        
-        "id": 1,
+        "id": "1",
         "marca": "Adidas",
         "modelo": "NMD R1 Boost",
-        "precio": 150,
+        "precio": "150",
         "color": "negro",
         "estilo":"Life style",
-        "img":"../imagenes/adidas_nmd1.jpg",
-        "cantidad": 1
+        "img":"../data/imagenes/adidas_nmd1.jpg",
+        "cantidad": "1"
     },
     {
-        "id": 2, 
+        "id": "2", 
         "marca": "Adidas",
         "modelo": "NMD R1 Boost",
-        "precio": 150,
+        "precio": "150",
         "color": "negro",
         "estilo":"Life style",
-        "img":"../imagenes/adidas_nmd2.jpg",
-        "cantidad": 1 
+        "img":"../data/imagenes/adidas_nmd2.jpg",
+        "cantidad": "1" 
     },
     {
-        "id": 3, 
+        "id": "3", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150", 
         "color": "blanco", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd3.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd3.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 4, 
+        "id": "4", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150",
         "color": "negro", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd4.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd4.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 5, 
+        "id": "5", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150", 
         "color": "gris", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd5.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd5.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 6, 
+        "id": "6", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150",
         "color": "naranja", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd6.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd6.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 7, 
+        "id": "7", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150",
         "color": "gris", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd7.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd7.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 8, 
+        "id": "8", 
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
-        "precio": 150, 
+        "precio": "150", 
         "color": "blanco", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_nmd8.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_nmd8.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 9, 
+        "id": "9", 
         "marca": "Adidas", 
         "modelo": "Ozweego",  
-        "precio": 150, 
+        "precio": "150",
         "color": "gris", 
         "estilo":"Life style", 
-        "img": "../imagenes/adidas_ozweego.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_ozweego.jpg", 
+        "cantidad": "1"
     },
     {
-        "id": 10, 
+        "id": "10", 
         "marca": "Adidas", 
         "modelo": "Ultra Boost",  
-        "precio": 150, 
+        "precio": "150",
         "color": "gris", 
         "estilo":"Deportiva", 
-        "img": "../imagenes/adidas_ultraboost_1.jpg", 
-        "cantidad": 1
+        "img": "../data/imagenes/adidas_ultraboost_1.jpg", 
+        "cantidad": "1"
     }
 ]
