@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from './CartWidget';
 
-function Navigator() {
+function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -15,7 +15,7 @@ function Navigator() {
           <Nav.Link href="#pricing">Contacto </Nav.Link>
           </Nav>
           <Nav>
-            <CartWidget/>
+            <CartWidget /> 
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -25,4 +25,4 @@ function Navigator() {
   );
 }
 
-export default Navigator;
+export default NavBar;
