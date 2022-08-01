@@ -16,6 +16,7 @@
         "modelo": "NMD R1 Boost",
         "precio": "150",
         "color": "negro",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES",
         "estilo":"Life style",
         "img":"../data/imagenes/adidas_nmd2.jpg",
         "cantidad": "1" 
@@ -25,7 +26,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150", 
-        "color": "blanco", 
+        "color": "blanco",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd3.jpg", 
         "cantidad": "1"
@@ -35,7 +37,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150",
-        "color": "negro", 
+        "color": "negro",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd4.jpg", 
         "cantidad": "1"
@@ -45,7 +48,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150", 
-        "color": "gris", 
+        "color": "gris",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd5.jpg", 
         "cantidad": "1"
@@ -55,7 +59,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150",
-        "color": "naranja", 
+        "color": "naranja",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd6.jpg", 
         "cantidad": "1"
@@ -65,7 +70,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150",
-        "color": "gris", 
+        "color": "gris",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd7.jpg", 
         "cantidad": "1"
@@ -75,7 +81,8 @@
         "marca": "Adidas", 
         "modelo": "NMD R1 Boost",  
         "precio": "150", 
-        "color": "blanco", 
+        "color": "blanco",
+        "descrip":"ZAPATILLAS BOOST CÓMODAS PARA LAS FESTIVIDADES", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_nmd8.jpg", 
         "cantidad": "1"
@@ -85,7 +92,8 @@
         "marca": "Adidas", 
         "modelo": "Ozweego",  
         "precio": "150",
-        "color": "gris", 
+        "color": "gris",
+        "descrip":"LAS ICÓNICAS ZAPATILLAS DE RUNNING DE LOS 90 SE ADAPTAN PARA CLIMA FRÍO", 
         "estilo":"Life style", 
         "img": "../data/imagenes/adidas_ozweego.jpg", 
         "cantidad": "1"
@@ -95,7 +103,8 @@
         "marca": "Adidas", 
         "modelo": "Ultra Boost",  
         "precio": "150",
-        "color": "gris", 
+        "color": "gris",
+        "descrip":"ZAPATILLAS ULTRA BOOST CÓMODAS CON UNA SENSACIÓN DE AJUSTE INIGUALABLE", 
         "estilo":"Deportiva", 
         "img": "../data/imagenes/adidas_ultraboost_1.jpg", 
         "cantidad": "1"

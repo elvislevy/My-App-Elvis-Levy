@@ -1,6 +1,5 @@
 import {useState, useEffect} from "react";
 import ItemCount from "./ItemCount";
-import ItemDetailContainer from "./ItemDetailContainer";
 import ItemList from "./ItemList";
 
 
@@ -12,7 +11,8 @@ const ItemListContainer = () => {
             .then(res => res.json())
             .then(data => {
                 setItems(data)
-            }) 
+            })
+            .catch((err) => console.log(err)) 
 
     },[]) 
 
@@ -24,8 +24,7 @@ const ItemListContainer = () => {
     return (
             <div>
                 <ItemList items={items} />
-                <ItemCount initial={1} stock={15} onAdd={onAdd} />
-                <ItemDetailContainer items={items} />
+                {/* <ItemCount initial={1} stock={15} onAdd={onAdd} /> */}
             </div>
     );
 

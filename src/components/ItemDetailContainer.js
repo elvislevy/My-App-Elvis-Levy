@@ -1,16 +1,20 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail"
 
-const ItemDetailContainer = ({ items }) => {
+const ItemDetailContainer = () => {
   
   const [item, setItem] = useState([])
+  const { itemId } = useParams()
     
     useEffect(() => {
         fetch('../data/data.json')
             .then(res => res.json())
             .then(data => {
-                setItem(data[0])
-            }) 
+                const product = data.find((i) => i.id === itemId)
+                setItem(product)
+            })
+            .catch((error) => console.log(error)) 
 
     },[])
 
