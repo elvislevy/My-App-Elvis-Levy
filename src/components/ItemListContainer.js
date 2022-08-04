@@ -16,15 +16,10 @@ const ItemListContainer = () => {
 
     },[]) 
 
-    const onAdd = (amount) => {
-        console.log(`Agregaste ${amount} de items en el carrito`)
-    }
-
 
     return (
             <div>
                 <ItemList items={items} />
-                {/* <ItemCount initial={1} stock={15} onAdd={onAdd} /> */}
             </div>
     );
 

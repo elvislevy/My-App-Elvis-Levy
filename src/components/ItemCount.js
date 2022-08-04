@@ -8,27 +8,28 @@ function ItemCount ({stock,initial, onAdd}) {
     
 
     const suma = () => {
-        (amount < stock) && setAmount(amount + 1)
+        setAmount(amount + 1)
     }
     const resta = () => {
-        (amount > initial) && setAmount(amount - 1)
+        setAmount(amount - 1)
     }
     const reset = () => {
         setAmount(initial)
     }
 
     return(
-        <div className="container my-5">
-            <div className="card text-center my-5">
+        <div className="container">
+            <div className="card text-center">
                 <div className="card-body">
-                    <h1>Contador</h1>
-                    <div className="my-5">
-                        <h2 className="my-5">{amount}</h2>
-                        <button className="btn btn-success mx-3" onClick={suma}> + </button>
-                        <button className="btn btn-secondary mx-3" onClick={reset} disabled={amount === initial}> Resetear </button>
-                        <button className="btn btn-danger mx-3" onClick={resta} disabled={amount === initial}> - </button>
+                    <div className="my-1 d-flex justify-content-center">
+                        <button className="btn btn-success mx-4 h-25" onClick={suma} disabled={amount === stock}> + </button>
+                        <h2 className="">{amount}</h2>
+                        <button className="btn btn-danger mx-4 h-25" onClick={resta} disabled={amount === initial}> - </button>
                     </div>
-                    <div className="my-5">
+                    <div className="my-4">
+                        <button className="btn btn-secondary mx-3" onClick={reset} disabled={amount === initial}> Resetear </button>
+                    </div>
+                    <div className="my-4">
                         <button className="btn btn-primary mx-3" onClick={() => onAdd(amount)}>Agregar al carrito</button>
                     </div>
                 </div>
