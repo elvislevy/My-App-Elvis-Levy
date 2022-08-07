@@ -10,7 +10,7 @@ function Item({ item }) {
         <Card.Title>{item.marca}</Card.Title>
         <Card.Text>{item.modelo}</Card.Text>
         <Card.Text>${item.precio}</Card.Text>
-        <Button variant="primary" as={Link} to={`/item/${item.id}`}>Ver detalle</Button>
+        <Button variant="dark" as={Link} to={`/item/${item.id}`}>Ver detalle</Button>
       </Card.Body>
     </Card>
   );
