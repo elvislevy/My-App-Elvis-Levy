@@ -36,7 +36,7 @@ const CartProvider = ({children}) => {
   }
   
   function removeItem(itemId) {
-    cartDraft = [...cart]
+    const cartDraft = [...cart]
     const cartDraftUpdated = cartDraft.filter((itemWanted) => itemWanted.id != itemId)
     setCart(cartDraftUpdated) 
 
